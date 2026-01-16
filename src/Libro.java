@@ -1,8 +1,8 @@
 public class Libro {
-    String titulo;
-    String autor;
-    int numPaginas;
-    int valoracion;
+   private String titulo;
+    private String autor;
+    private int numPaginas;
+    private int valoracion;
 
     public void mostrarInfo(){
         System.out.println("El "+titulo+" tiene "+numPaginas+" páginas.");
