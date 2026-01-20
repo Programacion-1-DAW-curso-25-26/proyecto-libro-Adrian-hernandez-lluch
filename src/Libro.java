@@ -38,8 +38,7 @@ public class Libro {
         System.out.println("ISBN= "+isbn);
     }
 
-
-
+    //Constructor
     public Libro(String titulo, String autor, int numPaginas, int valoracion, Integer isbn ){
         this.titulo=titulo;
         this.autor=autor;
@@ -47,6 +46,7 @@ public class Libro {
         this.valoracion=valoracion;
         this.isbn=isbn;
     }
+    //getters/setters
     public void setTitulo(){
         this.titulo= titulo;
     }
